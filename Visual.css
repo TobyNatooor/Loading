@@ -14,6 +14,7 @@ body {
     animation-iteration-count: infinite;
     transition-property: all;
     transition-duration: 0.5s;
+    opacity: 0;
     animation-timing-function: cubic-bezier(.08,.23,.06,.92);
 }
 
@@ -46,7 +47,7 @@ body {
 }
 
 @keyframes myAnimation {
-    0% {transform: translate(90px, 90px); border-radius: 100%;}
+    0% {transform: translate(90px, 90px); border-radius: 100%; opacity: 1;}
     25% {transform: translate(330px, 90px); border-radius: 50%;}
     50% {transform: translate(330px, 330px); border-radius: 50%;}
     75% {transform: translate(90px, 330px); border-radius: 50%;}
