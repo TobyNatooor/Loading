@@ -51,5 +51,5 @@ body {
     25% {transform: translate(330px, 90px); border-radius: 50%;}
     50% {transform: translate(330px, 330px); border-radius: 50%;}
     75% {transform: translate(90px, 330px); border-radius: 50%;}
-    100% {transform: translate(90px, 90px); border-radius: 50%;}
+    100% {transform: translate(90px, 90px); border-radius: 50%; opacity: 1;}
 }
